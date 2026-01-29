@@ -1,0 +1,95 @@
+```html
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>גלידריית הבוטיק | טעם של פעם</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts: Assistant for a professional Hebrew look -->
+    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Header / Navigation -->
+    <header>
+        <nav class="container">
+            <div class="logo">גלידריית <span>הבוטיק</span></div>
+            <ul class="nav-links">
+                <li><a href="#home">בית</a></li>
+                <li><a href="#flavors">טעמים</a></li>
+                <li><a href="#about">עלינו</a></li>
+                <li><a href="#contact">צור קשר</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content container">
+            <h1>הגלידה הכי טובה בעיר</h1>
+            <p>חומרי גלם טריים, מתכונים איטלקיים מסורתיים וחוויה של טעמים בכל כפית.</p>
+            <a href="#flavors" class="btn">לתפריט הטעמים</a>
+        </div>
+    </section>
+
+    <!-- Flavors Section -->
+    <section id="flavors" class="flavors container">
+        <h2 class="section-title">הטעמים המובחרים שלנו</h2>
+        <div class="flavor-grid">
+            <div class="flavor-card">
+                <div class="flavor-img" style="background-image: url('https://images.unsplash.com/photo-1570197788417-0e82375c9371?auto=format&fit=crop&w=400&q=80')"></div>
+                <h3>פיסטוק סיציליאני</h3>
+                <p>100% פיסטוקים מובחרים קלויים במקום.</p>
+            </div>
+            <div class="flavor-card">
+                <div class="flavor-img" style="background-image: url('https://images.unsplash.com/photo-1563805042-7684c019e1cb?auto=format&fit=crop&w=400&q=80')"></div>
+                <h3>שוקולד בלגי עשיר</h3>
+                <p>שוקולד מריר 70% עם נגיעות של פולי קקאו.</p>
+            </div>
+            <div class="flavor-card">
+                <div class="flavor-img" style="background-image: url('https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?auto=format&fit=crop&w=400&q=80')"></div>
+                <h3>וניל מדגסקר</h3>
+                <p>מקלות וניל טריים המעניקים ארומה משכרת.</p>
+            </div>
+            <div class="flavor-card">
+                <div class="flavor-img" style="background-image: url('https://images.unsplash.com/photo-1534706936160-d5ee67737249?auto=format&fit=crop&w=400&q=80')"></div>
+                <h3>סורבה פירות יער</h3>
+                <p>פירות יער טריים, ללא חלב וללא גלוטן.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">בואו לבקר אותנו</h2>
+            <div class="contact-wrapper">
+                <form id="contact-form">
+                    <input type="text" placeholder="שם מלא" required>
+                    <input type="email" placeholder="אימייל" required>
+                    <textarea placeholder="ההודעה שלך" rows="5" required></textarea>
+                    <button type="submit" class="btn">שלח הודעה</button>
+                </form>
+                <div class="contact-info">
+                    <p><strong>כתובת:</strong> רחוב הירקון 12, תל אביב</p>
+                    <p><strong>טלפון:</strong> 03-123-4567</p>
+                    <p><strong>שעות פתיחה:</strong> א'-ה': 10:00-23:00, ו': 09:00-כניסת שבת</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 גלידריית הבוטיק. כל הזכויות שמורות.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+```
